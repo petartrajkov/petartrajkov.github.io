@@ -1,0 +1,316 @@
+/* * {
+    border: 1px solid yellow;
+} */
+
+/* navbar */
+
+body {
+    padding-top: 85px;
+}
+
+.navwrap {
+    z-index: 99999;
+}
+
+#social {
+    padding-left: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+#social:hover {
+    color: white;
+}
+
+.container {
+    padding-top: 0.5rem;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+    margin: 0 auto;
+    min-height: 25px;
+}
+
+.navbar-inverse {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(236, 236, 236);
+}
+
+.navbar.navbar-inverse,
+.navbar-default {
+    border-radius: 0;
+    margin-bottom: 0px;
+    z-index: 9999;
+}
+
+.navbar-inverse .navbar-brand {
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #5a4f4f !important;
+    background-color: rgb(255, 255, 255);
+    font-weight: 1000;
+}
+
+.navbar-brand {
+    height: 3.1rem;
+    cursor: pointer;
+}
+
+.black {
+    background: #000;
+    border: 1px solid black;
+    color: white !important;
+}
+
+.logosize {
+    margin-top: -20px;
+    font-size: 40px !important;
+}
+
+.white {
+    background: white;
+    border: 1px solid white;
+    color: black !important;
+}
+
+.invertmenu {
+    color: #ffffff !important;
+    background-color: black !important;
+    /* border-bottom: 3px solid rgb(255, 16, 16); */
+    display: block;
+    font-family: 'Muli', sans-serif;
+}
+
+#mail {
+    color: rgb(223, 219, 219);
+}
+
+#logo {
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+}
+
+#logo:hover {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #000000;
+    background-color: white;
+    border-bottom: 3px solid rgb(248, 23, 23);
+    display: block;
+    padding: 0.5rem 1rem;
+    display: block;
+    font-family: 'Muli', sans-serif;
+}
+
+a.navlink {
+    display: block;
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #8b8282;
+    margin-right: 5px;
+    padding: 9px 13px;
+}
+
+/* SLIKA */
+
+/* .prvcontainer {
+    height: 500px;
+} */
+
+.slika {
+    background-position: 100% 100%;
+    background-image: url("walp2.jpg");
+    min-height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-top: 20px;
+}
+
+.vnatre {
+    padding-top: 2%;
+    font-family: 'Bitter', serif;
+}
+
+blockquote {
+    border: none;
+}
+
+a.left.carousel-control {
+    left: -45%;
+    background-image: none;
+}
+
+a.right.carousel-control {
+    right: -45%;
+    background-image: none;
+}
+
+footer.blockquote-footer {
+    color: grey;
+    font-size: 16px;
+}
+
+blockquote p {
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+}
+
+.glyphicon {
+    top: 15%;
+    font-size: 30px;
+}
+
+blockquote ol:last-child,
+blockquote p:last-child,
+blockquote ul:last-child {
+    margin-bottom: 0;
+    padding-top: 4%;
+}
+
+/*VTOR DEL OD SEKCIJA 1*/
+
+.bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -6%;
+    z-index: -2;
+    /* display: block; */
+    background-image: url("wallp2.png");
+    background-size: 95% 85%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.content {
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5%;
+    height: 1000px;
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    overflow: auto;
+    position: relative;
+}
+
+.actualtext {
+    z-index: 88888;
+}
+
+#selfie {
+    border-radius: 50%;
+}
+
+.pozicionirajslika {
+    padding-left: 6%;
+}
+
+/* SKILLS */
+
+.skills {
+    height: 100%;
+    background-color: #bebdbd;
+    text-align: center;
+}
+
+.skillsnaslov {
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-top: 3%;
+}
+
+.actualskills {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.telce {
+    color: black;
+}
+
+/* PROGRESS BARS */
+
+.progress-bar-orange {
+    background-color: orange;
+}
+
+.progress-bar-red {
+    background-color: rgb(223, 107, 107);
+}
+
+.progress-bar-brown {
+    background-color: brown;
+}
+
+/*CURRICULUM VITAE*/
+
+.curriculumvitae {
+    height: 1000px;
+    background-color: white;
+    color: black;
+    font-family: 'Muli', sans-serif;
+}
+
+.actualcv {
+    padding-top: 2%;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 1.5rem;
+    font-family: 'Muli', sans-serif;
+}
